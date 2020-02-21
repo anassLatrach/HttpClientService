@@ -1,0 +1,13 @@
+<div class="container">
+
+  <h3>Ajouter User :</h3>
+      <div class="form-group">
+          <label for="nom">Nom</label>
+          <input type="text" class="form-control" id="nom" [(ngModel)]="data.nom" placeholder="Enter Nom">
+      </div>
+      <div class="form-group">
+          <label for="prenom">Prénom</label>
+          <input type="text" class="form-control" id="prenom" [(ngModel)]="data.prenom" placeholder="Enter Prénom">
+      </div>
+      <button type="submit" class="btn btn-primary" (click)="submitForm()">Ajouter</button>
+</div>
